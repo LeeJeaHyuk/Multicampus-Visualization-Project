@@ -1,10 +1,10 @@
 
 # 어떤 주제로 할 것인지
 
-노인들의 교통사고 분석
++ 노인들의 교통사고 분석
    [공공데이터포털] (https://www.data.go.kr/data/15094162/fileData.do?recommendDataYn=Y)
 
-야구 정규시즌 데이터를 활용하여 다음 시즌 순위 예측
++ 야구 정규시즌 데이터를 활용하여 다음 시즌 순위 예측
    [KBO] (https://www.koreabaseball.com/)
 
 
