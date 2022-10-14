@@ -8,4 +8,4 @@
    [KBO] (https://www.koreabaseball.com/)
 
 
-+ 데이터 분석 대회 포함 (https://onsotong.go.kr/front/epilogue/epilogueBbsViewPage.do?bbs_id=206dcfa5305e4b5f8313c481169abcea&searchkey=A&searchtxt=&miv_pageNo=2)
++ 데이터 분석 대회 포함 (안내 보면 주제 5개 중 고를 수 있어서 명확하게 하나 정하지 않았습니다 !) (https://onsotong.go.kr/front/epilogue/epilogueBbsViewPage.do?bbs_id=206dcfa5305e4b5f8313c481169abcea&searchkey=A&searchtxt=&miv_pageNo=2)
