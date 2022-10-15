@@ -14,23 +14,24 @@
  <img src="./malripo/data/img/Contest.jpg">
 
 # 1. 이슈 수집
-     1. [인구감소와 `지방소멸`의 리스크 점검 및 정책적 시사점]
-        <link href="https://github.com/LeeJeaHyuk/Multicampus-2210-ProjectGroup4/blob/malripo/malripo/data/img/issue.pdf">
+     1. [인구감소와 지방소멸의 리스크 점검 및 정책적 시사점]
      2. [지방소멸, 어떻게 방지할 것인가?]
-        <link href="https://github.com/LeeJeaHyuk/Multicampus-2210-ProjectGroup4/blob/malripo/malripo/data/img/daechaek._01.pdf">
      3. [지방소멸 위기지역의 현황과 향후 과제] 
-        <link href="https://github.com/LeeJeaHyuk/Multicampus-2210-ProjectGroup4/blob/malripo/malripo/data/img/daechaek._03.pdf">
      4. [인구구조 변화 및 지방소멸에 대응하는 지역고용정책 사례 연구]
-        <link href="https://github.com/LeeJeaHyuk/Multicampus-2210-ProjectGroup4/blob/malripo/malripo/data/img/daechaek._02.pdf">
      5. [지역소멸, 인구 수 늘리기 보다 삶의 질 높여야 막을 수 있어]
-         <link href="https://github.com/LeeJeaHyuk/Multicampus-2210-ProjectGroup4/blob/malripo/malripo/data/writing/article_01.txt">
      6. ..........등등
+   
 # 1. 원인을 가정하고 (ex)
      1. [출산율]
      2. [도시화]
      3. [일자리]
      4. [복지]
-     5. ........등등
+     5. [대학수]
+     6. [병원수]
+     7. [교통]
+     8. [교육]
+     9. ........등등
+   
 # 2. 가정에 대책을 수립하고 (ex)
      1. [서울내 대학수 1/10로 줄인다]
      2. [서울 같은 지방도시 만든다]
