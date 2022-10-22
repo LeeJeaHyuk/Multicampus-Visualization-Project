@@ -10,5 +10,5 @@
 
 [자료수집](https://github.com/LeeJeaHyuk/Multicampus-2210-ProjectGroup4/blob/master/%EC%9E%90%EB%A3%8C%EC%88%98%EC%A7%91/README_%EC%9E%90%EB%A3%8C%EC%88%98%EC%A7%91.md)
 
-[역할분담]()
+[역할분담](https://github.com/LeeJeaHyuk/Multicampus-2210-ProjectGroup4/blob/master/%EC%97%AD%ED%95%A0%EB%B6%84%EB%8B%B4/README_%EC%97%AD%ED%95%A0%EB%B6%84%EB%8B%B4.md)
 
