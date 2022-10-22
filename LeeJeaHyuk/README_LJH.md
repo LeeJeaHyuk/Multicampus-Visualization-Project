@@ -9,4 +9,18 @@
 3. 트랜드
     1. 특정 기간의 뉴스를 긁어서 제목에서 중복되는 특정 단어의 개수를 시각화하기
 4. [빅데이터센터](https://kbig.kr/portal/kbig/datacube.page)
+5. 탄소 배출량
+    1. https://yearbook.enerdata.co.kr/co2/emissions-co2-data-from-fuel-combustion.html
+
+
+
+## 탄소 배출량 데이터
+
+1. https://yearbook.enerdata.co.kr/co2/emissions-co2-data-from-fuel-combustion.html
+   1. 위 사이트에서는 csv파일을 받을 수 있음
+2. https://github.com/owid/co2-data
+
+
+
+
 
