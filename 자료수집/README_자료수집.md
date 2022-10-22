@@ -19,6 +19,6 @@
 
 ## contributors
 
-1. README_jm : 김정민
-2. README_jh : 이재혁
-3. README_박수빈 
+1. [README_jm : 김정민](https://github.com/LeeJeaHyuk/Multicampus-2210-ProjectGroup4/blob/master/%EC%9E%90%EB%A3%8C%EC%88%98%EC%A7%91/README_jm.md)
+2. [README_jh : 이재혁](https://github.com/LeeJeaHyuk/Multicampus-2210-ProjectGroup4/blob/master/%EC%9E%90%EB%A3%8C%EC%88%98%EC%A7%91/README_jh.md)
+3. [README_박수빈](https://github.com/LeeJeaHyuk/Multicampus-2210-ProjectGroup4/blob/master/%EC%9E%90%EB%A3%8C%EC%88%98%EC%A7%91/README_%EB%B0%95%EC%88%98%EB%B9%88.md)
