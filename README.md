@@ -10,8 +10,8 @@
 
 + 데이터 분석 대회 포함 (안내 보면 주제 5개 중 고를 수 있어서 명확하게 하나 정하지 않았습니다 !) (https://onsotong.go.kr/front/epilogue/epilogueBbsViewPage.do?bbs_id=206dcfa5305e4b5f8313c481169abcea&searchkey=A&searchtxt=&miv_pageNo=2)
   
-+ [Contest]
- <img src="./malripo/data/img/Contest.jpg">
++ ![Contest](https://onsotong.go.kr/commonfile/downloadEpilogueAtchmnfl.do?atchmnfl_id=356acd91e761496f9c398c1ccc84c552)
+
 
 # 1. 이슈 수집
      1. [인구감소와 지방소멸의 리스크 점검 및 정책적 시사점]
@@ -42,4 +42,23 @@
      1. [영향 없다]
      2. [밀접한 관계가 증명 돼드라]
      3. ......등등
- 
+# 4. title img link crawling(zip_img_del_json)
+  ## 4.1 공공 데이타 
+         1. 연도별 자연재해
+         2. 지역별 기후변화 
+         3. 지역별 탄소배출량 
+         4. 탄소 관련 
+         5. 탄소배출량 
+         6. 탄소제로 
+         7. 등등
+  ## 4.2 구글 
+         1. 재해 
+         2. 재해원인 
+         3. 자연재해 해결책 
+         4. 탄소 영향 
+         5. 탄소배출 문제점 
+         6. 이산화탄소 배출 원인 순위 
+         7. 탄소제로 시나리오 
+         8. 등등
+
+
