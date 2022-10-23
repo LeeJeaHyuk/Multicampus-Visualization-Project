@@ -42,8 +42,9 @@
      1. [영향 없다]
      2. [밀접한 관계가 증명 돼드라]
      3. ......등등
+
 # 4. title img link crawling(zip_img_del_json)
-  ## 4.1 공공 데이타 
+  ## 4.1 공공 데이타 [zip_img_del_josn](https://github.com/LeeJeaHyuk/Multicampus-2210-ProjectGroup4/blob/malripo/malripo/zip/img_del.zip)
          1. 연도별 자연재해
          2. 지역별 기후변화 
          3. 지역별 탄소배출량 
@@ -51,7 +52,7 @@
          5. 탄소배출량 
          6. 탄소제로 
          7. 등등
-  ## 4.2 구글 
+  ## 4.2 구글 [zip_img_del_josn](https://github.com/LeeJeaHyuk/Multicampus-2210-ProjectGroup4/blob/malripo/malripo/zip/img_del.zip)
          1. 재해 
          2. 재해원인 
          3. 자연재해 해결책 
