@@ -1,0 +1,14 @@
+[1]. 원격 저장소 소유권 있는 경우
+     01. git clone [조장 url]
+          1-1). cd [생성폴더]
+     02. git switch -c feature/login or malripo <=branch를 생성하고 이동까지
+          2-1). git branch feature/login or malripo
+          2-2). git switch feature/login or malripo
+     04. 작업해
+          4-1). git add .
+          4-2). git commit -m "메세지"
+     05. git push origin feature/login or malripo
+     06. pull request <== 조장 웹 사이트에서
+     07. git switch master
+     08. git  pull origin master
+     09. git branch -d feature/login or malripo
