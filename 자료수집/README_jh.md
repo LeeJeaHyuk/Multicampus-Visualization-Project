@@ -39,7 +39,11 @@
 3. 매년 태풍발생 현환
    1. [기상청 날씨누리](https://www.weather.go.kr/w/typhoon/typ-stat.do)
       1. 우리나라의 태풍 발생 현황(51~21년)
+<<<<<<< HEAD
    2. ★[tropical.atmos.colostate.ed](http://tropical.atmos.colostate.edu/Realtime/index.php?arch&loc=global)
+=======
+   2. [tropical.atmos.colostate.ed](http://tropical.atmos.colostate.edu/Realtime/index.php?arch&loc=global)
+>>>>>>> develop
       1. 전세계적인 현황 
 
 

@@ -19,10 +19,14 @@
 1. https://yearbook.enerdata.co.kr/co2/emissions-co2-data-from-fuel-combustion.html
    1. 위 사이트에서는 csv파일을 받을 수 있음
 2. https://github.com/owid/co2-data
+<<<<<<< HEAD
 <<<<<<< .merge_file_Hbre31
 =======
    1. [full codebook](https://github.com/owid/co2-data/blob/master/owid-co2-codebook.csv)
 >>>>>>> .merge_file_A3ept3
+=======
+   1. [full codebook](https://github.com/owid/co2-data/blob/master/owid-co2-codebook.csv)
+>>>>>>> develop
 
 
 
