@@ -42,7 +42,10 @@
       1. 우리나라의 태풍 발생 현황(51~21년)
 
    2. ★[tropical.atmos.colostate.ed](http://tropical.atmos.colostate.edu/Realtime/index.php?arch&loc=global)
-
+      1. 전세계의 년도별 태풍 발생 현황 
+      2. 
+   
+   
      
 
 
