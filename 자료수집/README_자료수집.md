@@ -22,7 +22,4 @@
 1. [김정민](https://github.com/LeeJeaHyuk/Multicampus-2210-ProjectGroup4/blob/master/%EC%9E%90%EB%A3%8C%EC%88%98%EC%A7%91/README_jm.md)
 2. [이재혁](https://github.com/LeeJeaHyuk/Multicampus-2210-ProjectGroup4/blob/master/%EC%9E%90%EB%A3%8C%EC%88%98%EC%A7%91/README_jh.md)
 3. [박수빈](https://github.com/LeeJeaHyuk/Multicampus-2210-ProjectGroup4/blob/master/%EC%9E%90%EB%A3%8C%EC%88%98%EC%A7%91/README_%EB%B0%95%EC%88%98%EB%B9%88.md)
-<<<<<<< HEAD
 4. [심현아](https://github.com/LeeJeaHyuk/Multicampus-2210-ProjectGroup4/blob/develop/%EC%9E%90%EB%A3%8C%EC%88%98%EC%A7%91/README_%EC%8B%AC%ED%98%84%EC%95%84.md)
-=======
->>>>>>> develop
