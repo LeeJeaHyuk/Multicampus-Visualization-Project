@@ -39,18 +39,13 @@
    1. [기상청 날씨누리](https://www.weather.go.kr/w/typhoon/typ-stat.do)
       1. 우리나라의 태풍 발생 현황(51~21년)
    2. ★[tropical.atmos.colostate.ed](http://tropical.atmos.colostate.edu/Realtime/index.php?arch&loc=global)
-<<<<<<< HEAD
-      1. 전세계의 년도별 태풍 발생 현황 
-      2. 
-   
-   
-     
-=======
      1. 전세계적인 현황 
    
 
 
->>>>>>> cd4046904dcbcdc60e16dcaa2884d3b6747c6ab3
+=======
+      1. 전세계적인 현황 
+>>>>>>> .merge_file_bO9qKw
 
 
 
