@@ -1,6 +1,5 @@
 import pandas as pd
 import matplotlib.pyplot as plt
-from sklearn.preprocessing import MinMaxScaler
 
 df = pd.read_csv('csv file/CarboneTypoon.csv')
 print(df.columns)

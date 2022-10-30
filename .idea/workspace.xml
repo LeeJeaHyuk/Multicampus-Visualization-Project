@@ -2,16 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d60b7d9e-9398-47c1-a62e-7a323a8f792d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/LeeJeaHyuk/analysis/analysis.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeeJeaHyuk/analysis/csv file/typoonOfYear.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeeJeaHyuk/analysis/data analysis01.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeeJeaHyuk/analysis/data analysis02.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeeJeaHyuk/analysis/data analysis03.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeeJeaHyuk/analysis/WorldCarbone.py" beforeDir="false" afterPath="$PROJECT_DIR$/LeeJeaHyuk/analysis/WorldCarbone.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeeJeaHyuk/analysis/WorldCarbornEmission.csv" beforeDir="false" afterPath="$PROJECT_DIR$/LeeJeaHyuk/analysis/csv file/WorldCarbornEmission.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeeJeaHyuk/analysis/typoonOfYear.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeeJeaHyuk/crawling/typoon.py" beforeDir="false" afterPath="$PROJECT_DIR$/LeeJeaHyuk/crawling/typoon.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeeJeaHyuk/crawling/typoonOfYear.csv" beforeDir="false" afterPath="$PROJECT_DIR$/LeeJeaHyuk/crawling/typoonOfYear.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeeJeaHyuk/analysis/analysis.md" beforeDir="false" afterPath="$PROJECT_DIR$/LeeJeaHyuk/analysis/analysis.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeeJeaHyuk/analysis/data analysis01.py" beforeDir="false" afterPath="$PROJECT_DIR$/LeeJeaHyuk/analysis/data analysis01.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +37,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/deepBlue/workspaces2210/workspace_crawling"
+    "last_opened_file_path": "C:/Users/deepBlue/Multicampus2210proj"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -54,7 +48,7 @@
       <recent name="C:\Users\deepBlue\Multicampus2210proj\LeeJeaHyuk\analysis\csv file" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.carbEmiss01">
     <configuration name="WorldCarbone" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Multicampus2210proj" />
       <option name="INTERPRETER_OPTIONS" value="" />
