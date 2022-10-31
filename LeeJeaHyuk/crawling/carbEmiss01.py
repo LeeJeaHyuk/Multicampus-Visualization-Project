@@ -6,6 +6,6 @@ url = "https://databank.worldbank.org/reports.aspx?source=2&series=EN.ATM.CO2E.P
 resp = requests.get(url)
 soup = BeautifulSoup(resp.text, 'html.parser')
 
-worldEmsOfYear = 
+
 
 

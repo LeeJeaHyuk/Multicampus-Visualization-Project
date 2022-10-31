@@ -27,7 +27,6 @@
       1. 91~21사이의 자연재해는 늘었지만 사망자는 감소했다는 리포트
    2. [https://public.wmo.int/](https://public.wmo.int/en/media/press-release/weather-related-disasters-increase-over-past-50-years-causing-more-damage-fewer)
       1. 50년동안 자연재해는 늘었지만 사망자는 줄었다는 뉴스 
-   3. 
 2. 어떤 것을 자연재해로 규정짓는가?
    1. [www.statista.com](https://www.statista.com/statistics/510959/number-of-natural-disasters-events-globally/)
    2. 위 사이트에서는 아래 조건이 만족되었을 때 자연재해라고 한다 : 개인의 생각 또는 시대에 따라 자연재해의 정의가 다를 수 있음
