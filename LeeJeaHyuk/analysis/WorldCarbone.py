@@ -14,7 +14,7 @@ f.close()
 # 년도와 world(전체 탄소 배출량 데이터) 만 가져온다
 # csv_list[0] 에 null값이 있어서 data와 개수가 다르다고 나오는 듯
 # 먼저 null값을 없애고 다시 만들기
-# df = pd.DataFrame(data=csv_list[1:], columns=csv_list[0])
+# df = pd.DataFrame(crawling=csv_list[1:], columns=csv_list[0])
 
 df = pd.DataFrame(data=csv_list)
 df_World = df[df[0]=='World']

@@ -1,3 +1,5 @@
+# mycrawling 환경에서 진행
+
 import pandas as pd
 import matplotlib.pyplot as plt
 

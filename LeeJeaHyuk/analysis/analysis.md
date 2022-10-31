@@ -7,7 +7,9 @@
    4. 위의 2,3 에서 만들어진 데이터프레임을 concat한다
    5. 필요없는 열은 drop으로 제거한다
    6. 열 이름을 잘 알 수 있게 이름 변경
+      - .rename(columns = {'World':'World Carbone Emission'}, inplace=True)
    7. CarboneTypoon.csv 파일 생성 (index = False)
+   8. dataframe 변형되었을 때 .reset_index(drop=True) 사용
 
 2. data analysis01.py
    1. CarboneTypoon.csv 파일 불러오기

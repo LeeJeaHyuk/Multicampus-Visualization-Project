@@ -7,7 +7,7 @@ df = pd.read_csv('csv file/CarboneTypoon.csv')
 # print(df.columns)
 df01 = df.dropna()
 
-#  df01
+#  df01.columns
 # 'Year',
 # 'Named Storms',
 # 'Named Storm Days',
@@ -68,7 +68,8 @@ sns.lineplot(data=df02_scaled, x=df_Year,y=df02_scaled['World Carbone Emission']
 
 plt.tight_layout()
 
-plt.savefig('./graph file/4parameters.png')
+plt.savefig('./graph file/analysis02_HurricanesOfYear.png')
+## 그래프를 보았을 때 Cat. 3+ Hurricanes 데이터가 연간 탄소 배출량과 가장 비슷해보인다
 plt.show()
 
 
