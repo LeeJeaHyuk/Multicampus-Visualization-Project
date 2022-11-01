@@ -163,5 +163,5 @@ plt.title("(총 탄소배출, 겨울)", fontsize = 13)
 
 
 
-plt.savefig('../Graph_Img/korea_temp_total_emiss.png', dpi = 300)
+plt.savefig('../Graph_Img/korea_temp_total_emiss.png', dpi = 100)
 plt.show()
