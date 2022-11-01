@@ -63,6 +63,7 @@ LULUCF_Ems = df_ems['lulu_ems']
 Waste_Ems = df_ems['waste_ems']
 Ems_Incdec = df_ems['ems_incdec']
 
+print(year_ems)
 
 
 fig = plt.figure(figsize=(15, 10))
@@ -100,5 +101,5 @@ plt.legend(('TOTAL', 'NET', 'ENERGY', 'INDUSTRY', 'AGRICULTURE', 'LULUCF', 'WAST
 plt.title("분야별 탄소배출량 추이", fontsize = 20)
 
 
-
+plt.savefig('../Graph_Img/korea_temp_emiss_summary.png', dpi = 300)
 plt.show()

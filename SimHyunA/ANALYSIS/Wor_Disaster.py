@@ -115,14 +115,8 @@ plt.title("폭염/한파로 인한 사망자 수", fontsize = 15)
 
 
 
-# ax02 = fig.add_subplot(1, 2, 2)
-
-# ax02.plot(year, total_ems , color = "red", marker = 'o')
-# plt.xlabel("년도")
-# plt.ylabel("총 탄소 배출량")
-# plt.title("연도별 세계 총 탄소배출량", fontsize = 20)
 
 
 
-
+plt.savefig('../Graph_Img/world_disaster_death_summary.png', dpi = 300)
 plt.show()
