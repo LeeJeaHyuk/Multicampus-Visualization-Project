@@ -47,34 +47,45 @@ World Carbone Emission02                  0.971089                  1.000000
 # 점점 연관성이 생긴다는 가정 하에 년도마다 상관계수를 보자
 
 # 데이터프레임의 빈 열 추가.assign(cat3_corr01="", cat3_corr02="")
-CarboneTypoon02 = CarboneTypoon02.assign(cat3_corr01="", cat3_corr02="")
+CarboneTypoon02 = CarboneTypoon02.assign(Named_corr="", Hurricanes_corr="",Hurricanes_cat3_corr="")
 
 # 빈 열에 년도별 상관계수를 삽입
 for i in range(0,len(CarboneTypoon02)):
     tmp=CarboneTypoon02[i:].corr('pearson')
-    comtmp01 = tmp.loc['Cat. 3+ Hurricanes', 'World Carbone Emission02']
-    comtmp02 = tmp.loc['Cat. 3+ Hurricanes', 'World Carbone Emission']
-    CarboneTypoon02.loc[i, 'cat3_corr01'] = comtmp01
-    CarboneTypoon02.loc[i, 'cat3_corr02'] = comtmp02
+    comtmp_Named = tmp.loc['Named Storms', 'World Carbone Emission']
+    comtmp_Hurricanes = tmp.loc['Hurricanes', 'World Carbone Emission']
+    comtmp_cat3 = tmp.loc['Cat. 3+ Hurricanes', 'World Carbone Emission']
+    CarboneTypoon02.loc[i, 'Named_corr'] = comtmp_Named
+    CarboneTypoon02.loc[i, 'Hurricanes_corr'] = comtmp_Hurricanes
+    CarboneTypoon02.loc[i, 'Hurricanes_cat3_corr'] = comtmp_cat3
 
-print(CarboneTypoon02)
+# nan값때문에 heatmap이 안그려짐 -> replace
+CarboneTypoon02=CarboneTypoon02.replace(np.nan,1)
 
+# # # print(CarboneTypoon02[['Year','Named_corr','Hurricanes_corr','Hurricanes_cat3_corr']].tail(15))
+df_heatmap = CarboneTypoon02.set_index('Year')
+df_heatmap = df_heatmap[['Named_corr','Hurricanes_corr','Hurricanes_cat3_corr']]
+# # print(df_heatmap)
 # 구한 년도별 상관계수를 그려보자
 fig = plt.figure(constrained_layout=True)
-ax01 = fig.add_subplot(2,1,1)
-ax02 = fig.add_subplot(2,1,2)
+ax01 = fig.add_subplot(3,1,1)
+ax02 = fig.add_subplot(3,1,2)
+ax03 = fig.add_subplot(3,1,3)
 
 
-sns.lineplot(x=CarboneTypoon02['Year'], y=CarboneTypoon02['cat3_corr01'], ax=ax01)
-sns.lineplot(x=CarboneTypoon02['Year'], y=CarboneTypoon02['cat3_corr02'], ax=ax02)
-
-plt.savefig('./graph file/analysis04_cat.3_corr.png')
+sns.lineplot(x=CarboneTypoon02['Year'], y=CarboneTypoon02['Named_corr'], ax=ax01)
+sns.lineplot(x=CarboneTypoon02['Year'], y=CarboneTypoon02['Hurricanes_corr'], ax=ax02)
+sns.lineplot(x=CarboneTypoon02['Year'], y=CarboneTypoon02['Hurricanes_cat3_corr'], ax=ax03)
 plt.show()
+# # x축 돌려서 가로로 만들기
+# plt.xticks(rotation = 0)
+# sns.heatmap(df_heatmap,
+#             cmap='Blues',
+#             annot=True,)
+# plt.show()
 
 # 상관계수가 비교적 높아지기 시작한 2004년도 이후의 데이터를 추출
 CarboneTypoon03 = CarboneTypoon02[26:]
 print(CarboneTypoon03)
 
 # csv파일로 저장
-CarboneTypoon03.to_csv('./csv file/CarboneTypoon03.csv', index=False)
-CarboneTypoon03.to_json('./json file/CarboneTypoon03.json', orient='table')

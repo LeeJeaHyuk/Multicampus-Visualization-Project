@@ -34,4 +34,4 @@ df = pd.DataFrame(data=tyTableText[1:], columns=columnName)
 # print(df)
 
 # dataframe을 cvs로 만들기
-df.to_csv('typoonOfYear.csv', index=False)
+df.to_csv('../analysis/csv file/typoonOfYear.csv', index=False)
