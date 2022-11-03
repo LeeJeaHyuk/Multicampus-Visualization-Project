@@ -12,3 +12,5 @@
 
 [역할분담](https://github.com/LeeJeaHyuk/Multicampus-2210-ProjectGroup4/blob/master/%EC%97%AD%ED%95%A0%EB%B6%84%EB%8B%B4/README_%EC%97%AD%ED%95%A0%EB%B6%84%EB%8B%B4.md)
 
+개인자료
+- [이재혁](https://github.com/LeeJeaHyuk/Multicampus-2210-ProjectGroup4/blob/master/LeeJeaHyuk/README_LJH.md)
