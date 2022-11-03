@@ -1,5 +1,3 @@
-type = ['primary', 'info', 'success', 'warning', 'danger'];
-
 demo = {
   initPickColor: function() {
     $('.pick-class-label').click(function() {
@@ -360,7 +358,7 @@ demo = {
 
     // 에너지에서의 온실가스 배출량
     var data = {
-      labels: ['1990', '2000', '2010', '2015', '2016', '2017', '2018'],
+      labels: ['1990', '2000', '2010', '2015', '2016', '2017', '2018', '2019'],
       datasets: [{
         label: "Energy",
         fill: true,
@@ -376,7 +374,7 @@ demo = {
         pointHoverRadius: 4,
         pointHoverBorderWidth: 15,
         pointRadius: 4,
-        data: [240.4, 411.8, 566.1, 600.8, 602.7, 615.8, 632.4],
+        data: [240.4, 411.8, 566.1, 600.8, 602.7, 615.8, 632.4, 611.5],
       }]
     };
 
@@ -395,11 +393,11 @@ demo = {
     gradientStroke.addColorStop(0.4, 'rgba(66,134,121,0.0)'); //green colors
     gradientStroke.addColorStop(0, 'rgba(66,134,121,0)'); //green colors
 
-    // 농업에서의 온실가스 배출량
+    // 산업공정에서의 온실가스 배출량
     var data = {
-      labels: ['1990', '2000', '2010', '2015', '2016', '2017', '2018'],
+      labels: ['1990', '2000', '2010', '2015', '2016', '2017', '2018', '2019'],
       datasets: [{
-        label: "Agriculture",
+        label: "Industry",
         fill: true,
         backgroundColor: gradientStroke,
         borderColor: '#00d6b4',
@@ -413,7 +411,7 @@ demo = {
         pointHoverRadius: 4,
         pointHoverBorderWidth: 15,
         pointRadius: 4,
-        data: [21, 21.2, 21.7, 20.8, 20.5, 20.4, 21.2],
+        data: [20.4, 51.3, 54.7, 54.4, 52.8, 56, 57, 52],
       }]
     };
 
@@ -424,63 +422,63 @@ demo = {
 
     });
 
-    // 온도 변화
-    var chart_labels = ['1990', '2000', '2010', '2015', '2016', '2017', '2018', '2019', '2020', '2021'];
-    var chart_data = [12.8, 12.2, 12.4, 13.1, 13.4, 12.8, 12.8, 12.8, 13.3, 13, 13.3];
-
-    var ctx = document.getElementById("chartBig1").getContext('2d');
-
-    var gradientStroke = ctx.createLinearGradient(0, 230, 0, 50);
-
-    gradientStroke.addColorStop(1, 'rgba(72,72,176,0.1)');
-    gradientStroke.addColorStop(0.4, 'rgba(72,72,176,0.0)');
-    gradientStroke.addColorStop(0, 'rgba(119,52,169,0)'); //purple colors
-    var config = {
-      type: 'line',
-      data: {
-        labels: chart_labels,
-        datasets: [{
-          label: "change_tem",
-          fill: true,
-          backgroundColor: gradientStroke,
-          borderColor: '#f5e90c',
-          borderWidth: 2,
-          borderDash: [],
-          borderDashOffset: 0.0,
-          pointBackgroundColor: '#f5e90c',
-          pointBorderColor: 'rgba(255,255,255,0)',
-          pointHoverBackgroundColor: '#d346b1',
-          pointBorderWidth: 20,
-          pointHoverRadius: 4,
-          pointHoverBorderWidth: 15,
-          pointRadius: 4,
-          data: chart_data,
-        }]
-      },
-      options: gradientChartOptionsConfigurationWithTooltipPurple
-    };
-    var myChartData = new Chart(ctx, config);
-    $("#0").click(function() { /* 평균기온 변화*/
-      var data = myChartData.config.data;
-      data.datasets[0].data = chart_data;
-      data.labels = chart_labels;
-      myChartData.update();
-    });
-    $("#1").click(function() { /* 최저기온 변화 */
-      var chart_data = [8.3, 7.7, 7.7, 8.3, 7.7, 7.7, 7.8, 8.3, 8.4, 8.6];
-      var data = myChartData.config.data;
-      data.datasets[0].data = chart_data;
-      data.labels = chart_labels;
-      myChartData.update();
-    });
-
-    $("#2").click(function() { /* 최고기온 변화 */
-      var chart_data = [18.2, 17.9, 17.7, 18.7, 18.8, 18.5, 18.4, 19, 18.4, 18.8];
-      var data = myChartData.config.data;
-      data.datasets[0].data = chart_data;
-      data.labels = chart_labels;
-      myChartData.update();
-    });
+//    // 온도 변화
+//    var chart_labels = ['1990', '2000', '2010', '2015', '2016', '2017', '2018', '2019', '2020', '2021'];
+//    var chart_data = [12.8, 12.2, 12.4, 13.1, 13.4, 12.8, 12.8, 13.3, 13, 13.3];
+//
+//    var ctx = document.getElementById("chartBig1").getContext('2d');
+//
+//    var gradientStroke = ctx.createLinearGradient(0, 230, 0, 50);
+//
+//    gradientStroke.addColorStop(1, 'rgba(72,72,176,0.1)');
+//    gradientStroke.addColorStop(0.4, 'rgba(72,72,176,0.0)');
+//    gradientStroke.addColorStop(0, 'rgba(119,52,169,0)'); //purple colors
+//    var config = {
+//      type: 'line',
+//      data: {
+//        labels: chart_labels,
+//        datasets: [{
+//          label: "change_tem",
+//          fill: true,
+//          backgroundColor: gradientStroke,
+//          borderColor: '#f5e90c',
+//          borderWidth: 2,
+//          borderDash: [],
+//          borderDashOffset: 0.0,
+//          pointBackgroundColor: '#f5e90c',
+//          pointBorderColor: 'rgba(255,255,255,0)',
+//          pointHoverBackgroundColor: '#d346b1',
+//          pointBorderWidth: 20,
+//          pointHoverRadius: 4,
+//          pointHoverBorderWidth: 15,
+//          pointRadius: 4,
+//          data: chart_data,
+//        }]
+//      },
+//      options: gradientChartOptionsConfigurationWithTooltipPurple
+//    };
+//    var myChartData = new Chart(ctx, config);
+//    $("#0").click(function() { /* 평균기온 변화*/
+//      var data = myChartData.config.data;
+//      data.datasets[0].data = chart_data;
+//      data.labels = chart_labels;
+//      myChartData.update();
+//    });
+//    $("#1").click(function() { /* 최저기온 변화 */
+//      var chart_data = [8.3, 7.7, 7.7, 8.3, 7.7, 7.7, 7.8, 8.3, 8.4, 8.6];
+//      var data = myChartData.config.data;
+//      data.datasets[0].data = chart_data;
+//      data.labels = chart_labels;
+//      myChartData.update();
+//    });
+//
+//    $("#2").click(function() { /* 최고기온 변화 */
+//      var chart_data = [18.2, 17.9, 17.7, 18.7, 18.8, 18.5, 18.4, 19, 18.4, 18.8];
+//      var data = myChartData.config.data;
+//      data.datasets[0].data = chart_data;
+//      data.labels = chart_labels;
+//      myChartData.update();
+//    });
 
 
     var ctx = document.getElementById("CountryChart").getContext("2d");
@@ -491,7 +489,7 @@ demo = {
     gradientStroke.addColorStop(0.4, 'rgba(29,140,248,0.0)');
     gradientStroke.addColorStop(0, 'rgba(29,140,248,0)'); //blue colors
 
-    /* 5개 중 3개 선정 : 상관계수 살펴 보고 상위 3개 */
+
     var myChart = new Chart(ctx, {
       type: 'line',
       responsive: true,
@@ -499,7 +497,7 @@ demo = {
         display: false
       },
       data: {
-        labels: ['1990', '2000', '2010', '2015', '2016', '2017', '2018'],
+        labels: ['1990', '2000', '2010', '2015', '2016', '2017', '2018', '2019'],
         datasets: [{
           label: "LULUCF",
           fill: true,
@@ -509,7 +507,7 @@ demo = {
           borderWidth: 2,
           borderDash: [],
           borderDashOffset: 0.0,
-          data: [-37.7, -58.3, -53.8, -42.4, -43.9, -41.6, -41.3],
+          data: [-37.7, -58.3, -53.8, -42.4, -43.9, -41.6, -41.3, -39.6],
         }]
       },
       options: gradientBarChartConfiguration
