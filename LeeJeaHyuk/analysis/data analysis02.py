@@ -61,10 +61,10 @@ ax02 = fig.add_subplot(2,2,2)
 ax03 = fig.add_subplot(2,2,3)
 ax04 = fig.add_subplot(2,2,4)
 
-sns.lineplot(data=df02_scaled, x=df_Year,y=df02_scaled['Named Storms'], ax=ax01)
-sns.lineplot(data=df02_scaled, x=df_Year,y=df02_scaled['Hurricanes'], ax=ax02)
-sns.lineplot(data=df02_scaled, x=df_Year,y=df02_scaled['Cat. 3+ Hurricanes'], ax=ax03)
-sns.lineplot(data=df02_scaled, x=df_Year,y=df02_scaled['World Carbone Emission'], ax=ax04)
+sns.lineplot(x=df_Year,y=df01['Named Storms'], ax=ax01)
+sns.lineplot(x=df_Year,y=df01['Hurricanes'], ax=ax02)
+sns.lineplot(x=df_Year,y=df01['Cat. 3+ Hurricanes'], ax=ax03)
+sns.lineplot(x=df_Year,y=df01['World Carbone Emission'], ax=ax04)
 
 plt.tight_layout()
 

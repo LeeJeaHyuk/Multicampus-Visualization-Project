@@ -49,12 +49,15 @@ plt.savefig('./graph file/analysis03_cat3AndCarbonOfYear.png')
 
 
 fig01 = plt.figure()
-ax03 = fig01.add_subplot(2,1,1)
-ax04 = fig01.add_subplot(2,1,2)
+ax03 = fig01.add_subplot(2,2,1)
+ax04 = fig01.add_subplot(2,2,2)
+ax05 = fig01.add_subplot(2,2,3)
 
 ## 정규화 한 데이터로 두 특성 비교
-sns.lineplot(x=df02_scaled['World Carbone Emission'], y=df02_scaled['Hurricanes'], ax=ax03)
-sns.lineplot(x=df02_scaled['World Carbone Emission'], y=df02_scaled['Cat. 3+ Hurricanes'], ax=ax04)
+sns.regplot(x=df02_scaled['World Carbone Emission'], y=df02_scaled['Named Storms'], ax=ax03)
+sns.regplot(x=df02_scaled['World Carbone Emission'], y=df02_scaled['Hurricanes'], ax=ax04)
+sns.regplot(x=df02_scaled['World Carbone Emission'], y=df02_scaled['Cat. 3+ Hurricanes'], ax=ax05)
+
 ## 그냥 두 특성을 비교했을 때에는 큰 연관성이 보이지 않는 것 같다
 
 plt.tight_layout()
@@ -72,8 +75,8 @@ print(df02_scaled_corr['World Carbone Emission'])
 
 ## 선형회귀 그래프 그려보기
 fig02 = plt.figure()
-ax05 = fig02.add_subplot(2,1,1)
-sns.regplot(data = df02_scaled , x=df02_scaled['World Carbone Emission'], y=df02_scaled['Hurricanes'], ax=ax05)
+ax06 = fig02.add_subplot(2,1,1)
+sns.regplot(data = df02_scaled , x=df02_scaled['World Carbone Emission'], y=df02_scaled['Hurricanes'], ax=ax06)
 plt.savefig('./graph file/analysis03_carbone_huricane_regplot.png')
 # 상관관계가 거의 없었음으로 회귀 그래프 또한 상관관계가 없다고 나온다
 
