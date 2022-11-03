@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/../.." vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/django-black-dashboard" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/django-black-dashboard_FIN" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/django-black-dashboard_psb" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/django-black-dashboard_total" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/django-black-dashboard_total22" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/django-black-dashboard_total33" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/django-datta-able" vcs="Git" />
+  </component>
+</project>

@@ -57,19 +57,19 @@ for i in range(0,len(CarboneTypoon02)):
     CarboneTypoon02.loc[i, 'cat3_corr01'] = comtmp01
     CarboneTypoon02.loc[i, 'cat3_corr02'] = comtmp02
 
-# print(CarboneTypoon02)
+print(CarboneTypoon02)
 
 # 구한 년도별 상관계수를 그려보자
-# fig = plt.figure(constrained_layout=True)
-# ax01 = fig.add_subplot(2,1,1)
-# ax02 = fig.add_subplot(2,1,2)
-#
-#
-# sns.lineplot(x=CarboneTypoon02['Year'], y=CarboneTypoon02['cat3_corr01'], ax=ax01)
-# sns.lineplot(x=CarboneTypoon02['Year'], y=CarboneTypoon02['cat3_corr02'], ax=ax02)
-#
-# plt.savefig('./graph file/analysis04_cat.3_corr.png')
-# plt.show()
+fig = plt.figure(constrained_layout=True)
+ax01 = fig.add_subplot(2,1,1)
+ax02 = fig.add_subplot(2,1,2)
+
+
+sns.lineplot(x=CarboneTypoon02['Year'], y=CarboneTypoon02['cat3_corr01'], ax=ax01)
+sns.lineplot(x=CarboneTypoon02['Year'], y=CarboneTypoon02['cat3_corr02'], ax=ax02)
+
+plt.savefig('./graph file/analysis04_cat.3_corr.png')
+plt.show()
 
 # 상관계수가 비교적 높아지기 시작한 2004년도 이후의 데이터를 추출
 CarboneTypoon03 = CarboneTypoon02[26:]
@@ -77,3 +77,4 @@ print(CarboneTypoon03)
 
 # csv파일로 저장
 CarboneTypoon03.to_csv('./csv file/CarboneTypoon03.csv', index=False)
+CarboneTypoon03.to_json('./json file/CarboneTypoon03.json', orient='table')
