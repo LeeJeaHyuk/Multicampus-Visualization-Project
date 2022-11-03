@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="71ab3d34-a3ad-4334-b881-cecf552894fd" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../.idea/Multicampus2210proj.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../analysis/csv file/CarboneTypoon_transpose.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../analysis/csv file/Shared folder/CarboneTypoon03.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../analysis/csv file/Shared folder/global green gas.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../analysis/csv file/Shared folder/kor avg temp.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../analysis/data analysis03-1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../analysis/data analysis04-ex1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../analysis/data analysis06.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../analysis/data analysis07.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../analysis/json file/CarboneTypoon03.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/django.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/django-black-dashboard" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/django-black-dashboard/apps/static/assets/demo/data/CarboneTypoon03.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/django-black-dashboard/apps/static/assets/demo/data/demo_jm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/django-black-dashboard/apps/static/assets/demo/demo_jh.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/django-black-dashboard/apps/static/assets/demo/demo_jm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/django-black-dashboard/apps/static/assets/demo/demo_psb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/django-black-dashboard/apps/static/assets/img/graph01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/django-black-dashboard/apps/static/assets/img/graph02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/django-black-dashboard/apps/static/assets/img/graph03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/django-black-dashboard/apps/templates/home/index_jh.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/django-black-dashboard/apps/templates/home/index_jm.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/django-black-dashboard/apps/templates/home/index_psb.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/django-black-dashboard_FIN/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/django-black-dashboard_FIN/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/django-black-dashboard_FIN/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/django-black-dashboard_FIN/apps/static/assets/img/년도별 기온변화 그래프.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/django-black-dashboard_total33/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/django-black-dashboard_total33/apps/static/assets/img/graph01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/django-black-dashboard_total33/apps/static/assets/img/graph02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/django-black-dashboard_total33/apps/static/assets/img/graph03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/django-black-dashboard_total33/apps/static/assets/img/korea_temp_emiss_summary.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/django-black-dashboard_total33/apps/static/assets/img/korea_temp_outlier_check.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/django-black-dashboard_total33/apps/static/assets/img/korea_temp_total_emiss.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/django-black-dashboard_total33/apps/static/assets/img/news_death_dec.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/django-black-dashboard_total33/apps/static/assets/img/world_disa_death_emiss.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/django-black-dashboard_total33/apps/static/assets/img/world_disa_death_emiss_2015.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/django-black-dashboard_total33/apps/static/assets/img/world_disa_outliers_check.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/django-black-dashboard_total33/apps/static/assets/img/world_disa_outliers_withEmis.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/django-black-dashboard_total33/apps/static/assets/img/world_disaster_death_summary.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/LeeJeaHyuk.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/LeeJeaHyuk.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../analysis/WorldCarbone.py" beforeDir="false" afterPath="$PROJECT_DIR$/../analysis/WorldCarbone.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../analysis/analysis.md" beforeDir="false" afterPath="$PROJECT_DIR$/../analysis/analysis.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../analysis/data analysis02.py" beforeDir="false" afterPath="$PROJECT_DIR$/../analysis/data analysis02.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../analysis/data analysis03.py" beforeDir="false" afterPath="$PROJECT_DIR$/../analysis/data analysis03.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../analysis/data analysis04.py" beforeDir="false" afterPath="$PROJECT_DIR$/../analysis/data analysis04.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../analysis/data analysis05.py" beforeDir="false" afterPath="$PROJECT_DIR$/../analysis/data analysis05.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../analysis/graph file/analysis02_HurricanesOfYear.png" beforeDir="false" afterPath="$PROJECT_DIR$/../analysis/graph file/analysis02_HurricanesOfYear.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../analysis/graph file/analysis03_HurricaneOfCarbon.png" beforeDir="false" afterPath="$PROJECT_DIR$/../analysis/graph file/analysis03_HurricaneOfCarbon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../analysis/graph file/analysis03_carbone_huricane_regplot.png" beforeDir="false" afterPath="$PROJECT_DIR$/../analysis/graph file/analysis03_carbone_huricane_regplot.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../analysis/graph file/analysis04_cat.3_corr.png" beforeDir="false" afterPath="$PROJECT_DIR$/../analysis/graph file/analysis04_cat.3_corr.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crawling/typoon.py" beforeDir="false" afterPath="$PROJECT_DIR$/../crawling/typoon.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django-black-dashboard/apps/static/assets/demo/demo.js" beforeDir="false" afterPath="$PROJECT_DIR$/django-black-dashboard/apps/static/assets/demo/demo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django-black-dashboard/apps/static/assets/js/core/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/django-black-dashboard/apps/static/assets/js/core/bootstrap.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django-black-dashboard/apps/templates/home/icons.html" beforeDir="false" afterPath="$PROJECT_DIR$/django-black-dashboard/apps/templates/home/icons__.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django-black-dashboard/apps/templates/includes/scripts.html" beforeDir="false" afterPath="$PROJECT_DIR$/django-black-dashboard/apps/templates/includes/scripts.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django-black-dashboard/apps/templates/includes/sidebar.html" beforeDir="false" afterPath="$PROJECT_DIR$/django-black-dashboard/apps/templates/includes/sidebar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django-black-dashboard_FIN/apps/static/assets/demo/demo.js" beforeDir="false" afterPath="$PROJECT_DIR$/django-black-dashboard_FIN/apps/static/assets/demo/demo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django-black-dashboard_FIN/apps/templates/home/icons.html" beforeDir="false" afterPath="$PROJECT_DIR$/django-black-dashboard_FIN/apps/templates/home/icons.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django-black-dashboard_FIN/apps/templates/home/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/django-black-dashboard_FIN/apps/templates/home/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django-black-dashboard_FIN/apps/templates/home/map.html" beforeDir="false" afterPath="$PROJECT_DIR$/django-black-dashboard_FIN/apps/templates/home/map.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django-black-dashboard_FIN/apps/templates/home/notifications.html" beforeDir="false" afterPath="$PROJECT_DIR$/django-black-dashboard_FIN/apps/templates/home/notifications.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django-black-dashboard_FIN/apps/templates/includes/sidebar.html" beforeDir="false" afterPath="$PROJECT_DIR$/django-black-dashboard_FIN/apps/templates/includes/sidebar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django-black-dashboard_total33/apps/static/assets/demo/demo.js" beforeDir="false" afterPath="$PROJECT_DIR$/django-black-dashboard_total33/apps/static/assets/demo/demo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django-black-dashboard_total33/apps/templates/home/icons.html" beforeDir="false" afterPath="$PROJECT_DIR$/django-black-dashboard_total33/apps/templates/home/icons.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django-black-dashboard_total33/apps/templates/home/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/django-black-dashboard_total33/apps/templates/home/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django-black-dashboard_total33/apps/templates/home/notifications.html" beforeDir="false" afterPath="$PROJECT_DIR$/django-black-dashboard_total33/apps/templates/home/notifications.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django-datta-able/core/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/django-datta-able/core/settings.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/django-black-dashboard" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2Gy6dKE4U5xE2Ezp4FmTMzYNh10" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/deepBlue/Multicampus2210proj/LeeJeaHyuk/django&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\deepBlue\Multicampus2210proj\LeeJeaHyuk\django\django-black-dashboard_total22\apps\static\assets\demo" />
+      <recent name="C:\Users\deepBlue\Multicampus2210proj\LeeJeaHyuk\django\django-black-dashboard\apps\static\assets\demo" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\deepBlue\Multicampus2210proj\LeeJeaHyuk\django" />
+      <recent name="C:\Users\deepBlue\Multicampus2210proj\LeeJeaHyuk\django\django-black-dashboard_total22\apps\static\assets\demo" />
+      <recent name="C:\Users\deepBlue\Multicampus2210proj\LeeJeaHyuk\django\django-black-dashboard_total\apps\static\assets\img" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="71ab3d34-a3ad-4334-b881-cecf552894fd" name="Changes" comment="" />
+      <created>1667348562920</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1667348562920</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
