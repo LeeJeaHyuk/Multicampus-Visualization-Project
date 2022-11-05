@@ -15,5 +15,5 @@
 개인자료
 - [이재혁](https://github.com/LeeJeaHyuk/Multicampus-2210-ProjectGroup4/blob/master/LeeJeaHyuk/README_LJH.md)
 
-[프로젝트 결과]()
+[프로젝트 결과](https://github.com/LeeJeaHyuk/Multicampus-2210-ProjectGroup4/blob/master/Project/README_project.md)
 
