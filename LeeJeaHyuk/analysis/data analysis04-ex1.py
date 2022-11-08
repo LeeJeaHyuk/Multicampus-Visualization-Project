@@ -76,15 +76,21 @@ ax03 = fig.add_subplot(3,1,3)
 sns.lineplot(x=CarboneTypoon02['Year'], y=CarboneTypoon02['Named_corr'], ax=ax01)
 sns.lineplot(x=CarboneTypoon02['Year'], y=CarboneTypoon02['Hurricanes_corr'], ax=ax02)
 sns.lineplot(x=CarboneTypoon02['Year'], y=CarboneTypoon02['Hurricanes_cat3_corr'], ax=ax03)
-plt.show()
-# # x축 돌려서 가로로 만들기
-# plt.xticks(rotation = 0)
-# sns.heatmap(df_heatmap,
-#             cmap='Blues',
-#             annot=True,)
-# plt.show()
 
-# 상관계수가 비교적 높아지기 시작한 2004년도 이후의 데이터를 추출
+plt.savefig('./graph file/analysis04-ex1 hurricane carborn lineplot.png')
+
+plt.show()
+# x축 돌려서 가로로 만들기
+plt.xticks(rotation = 0)
+sns.heatmap(df_heatmap,
+            cmap='Blues',
+            annot=True,)
+
+plt.savefig('./graph file/analysis04-ex1 hurricane carborn all corr heatmap.png')
+
+plt.show()
+
+# 상관계수가 비교적 높아지기 시작한 2015년도 이후의 데이터를 추출
 CarboneTypoon03 = CarboneTypoon02[26:]
 print(CarboneTypoon03)
 
