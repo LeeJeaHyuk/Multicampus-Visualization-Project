@@ -43,4 +43,7 @@ sns.heatmap(corr01,
             # yticklabels=LABELS,
             annot=True,)
 plt.title('Corr Typoon and Carbone Emission')
+
+plt.savefig('./graph file/analysis03-1 hurricane carbone corr heatmap.png')
+
 plt.show()

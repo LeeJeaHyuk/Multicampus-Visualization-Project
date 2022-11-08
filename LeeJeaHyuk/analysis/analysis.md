@@ -27,7 +27,11 @@
    3. 상관계수 확인하기 .corr('pearson')
    4. 선형회귀 그래프 그려보기
 
-5. [data analysis04.py](https://github.com/LeeJeaHyuk/Multicampus-2210-ProjectGroup4/blob/master/LeeJeaHyuk/analysis/data%20analysis04.py)
+5. [data analysis03-1.py](https://github.com/LeeJeaHyuk/Multicampus-2210-ProjectGroup4/blob/master/LeeJeaHyuk/analysis/data%20analysis03-1.py)
+   1. ['Named Storms','Hurricanes','Cat. 3+ Hurricanes'] 특성과 World Carbone Emission 특성의 상관관계 구하기
+   2. 구한 상관관계를 sns.seaborn heatmap을 사용해서 시각적으로 확인하기
+
+6. [data analysis04.py](https://github.com/LeeJeaHyuk/Multicampus-2210-ProjectGroup4/blob/master/LeeJeaHyuk/analysis/data%20analysis04.py)
    1. 공유받은 데이터와 기존 데이터 합치기 pd.concat([df01,df_shared['Total_Emission']], axis=1)
    2. 열이름 변경하기
    3. 새로 받은 데이터와 상관계수 계산해보기
@@ -36,13 +40,29 @@
       2. 빈 열에 상관계수 삽입하기 (for문 사용)
    5. 상관계수가 비교적 높은 년도의 데이터를 추출해서 csv로 만들기 : CarboneTypoon03.csv 생성
       1. 2015년 이후 데이터로 사용
-6. [data analysis05.py](https://github.com/LeeJeaHyuk/Multicampus-2210-ProjectGroup4/blob/master/LeeJeaHyuk/analysis/data%20analysis05.py)
+7. [data analysis04-ex1.py](https://github.com/LeeJeaHyuk/Multicampus-2210-ProjectGroup4/blob/master/LeeJeaHyuk/analysis/data%20analysis04-ex1.py)
+   1. 데이터프레임에 빈 열 추가 CarboneTypoon02.assign(Named_corr="", Hurricanes_corr="",Hurricanes_cat3_corr="")
+   2. 빈 열에 for문을 이용해서 상관계수 삽입 
+      1. 두 데이터가 교차하는 지점의 데이터만 가져오기tmp.loc['Named Storms', 'World Carbone Emission']
+
+   3. 구한 상관게수 빈 열에 집어넣기
+   4. 그래프 그리기 위해 빈 값 제거(1로 채워줌) CarboneTypoon02.replace(np.nan,1) 
+   5. 년도별 상관계수 lineplot,heatmap으로 그리기
+   6. 2016년 이후 데이터만 CarboneTypoon03.cvs에 저장
+
+8. [data analysis05.py](https://github.com/LeeJeaHyuk/Multicampus-2210-ProjectGroup4/blob/master/LeeJeaHyuk/analysis/data%20analysis05.py)
    1. 데이터 정규화 하기
       1. 기존보다 코드가 더 간단하게 바뀜
 
    2. 선형 관계를 다시 그려보기
       1. World Carbone Emission02 데이터를 선택하여 다시 그리기
       2. 2015년 이후부터는 탄소배출량이 증가하면 태풍의 수도 증가한다는 결과를 찾아냄
+9. [data analysis06.py](https://github.com/LeeJeaHyuk/Multicampus-2210-ProjectGroup4/blob/master/LeeJeaHyuk/analysis/data%20analysis06.py)
+   1. 온실가스 배출량과 평균기온 2015 이후 데이터만 사용하여 lineplot으로 그려보기
+
+10. [data analysis07.py](https://github.com/LeeJeaHyuk/Multicampus-2210-ProjectGroup4/blob/master/LeeJeaHyuk/analysis/data%20analysis07.py)
+    1. CarboneTypoon data Transpose 사용
+
 
 
 
